@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 50%;
+  margin: 30px auto;
+}
+
+.form-box {
+  background: rgb(85, 177, 208);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 12px;
+  width: 50%;
+align-items: center;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: rgb(164, 216, 216);
+}
+
+button {
+  padding: 12px;
+  background-color: rgb(231, 59, 197);
+  color: white;
+  font-size: 18px;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(223, 75, 194);
+}
+ 
+.table-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(19, 18, 18);
+}
+
+.table-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: rgb(197, 101, 130);
+  color: white;
+  padding: 12px;
+}
+
+table td {
+  border: 1px solid gray;
+  padding: 10px;
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
